@@ -6,7 +6,7 @@ Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan
 
 The alphabet used consists of ASCII letters a to z, inclusive, and is case insensitive. Input will not contain non-ASCII symbols.
 
-## Running the test suite
+## Running the Test Suite
 The provided test suite uses Jasmine. You can install it by opening a terminal window and running the following command:
 
 ```bash
@@ -19,4 +19,4 @@ Run the test suite from the exercise directory with:
 jasmine pangram.spec.js
 ```
 
-In many test suites all but the first test have been marked "pending". Once you get a test passing, activate the next one by changing xit to it.
+In many test suites all but the first test have been marked "pending". Once you get a test passing, activate the next one by changing `xit` to `it`.
