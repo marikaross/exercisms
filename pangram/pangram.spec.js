@@ -1,7 +1,7 @@
 var Pangram = require('./pangram');
 
 describe('Pangram()', function ()  {
-  it('sentence empty', function () {
+  xit('sentence empty', function () {
     var pangram = new Pangram('');
     expect(pangram.isPangram()).toBe(false);
   });
@@ -11,7 +11,7 @@ describe('Pangram()', function ()  {
     expect(pangram.isPangram()).toBe(true);
   });
 
-  xit('pangram with only lower case', function ()  {
+  it('pangram with only lower case', function ()  {
     var pangram = new Pangram('the quick brown fox jumps over the lazy dog');
     expect(pangram.isPangram()).toBe(true);
   });
