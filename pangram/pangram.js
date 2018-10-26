@@ -4,12 +4,11 @@ class pangram {
   }
 
   isPangram() {
-    let letters = [...this.words]
-    for (i = 0; i < letters.length; i++) {
-      if ([i] == letter.toUpperCase()) {
-        return false
-      }
+    if(this.words = []) {
+      return false
     }
+
+
   
    }
 

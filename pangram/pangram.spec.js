@@ -1,17 +1,17 @@
 var Pangram = require('./pangram');
 
 describe('Pangram()', function ()  {
-  xit('sentence empty', function () {
+  it('sentence empty', function () {
     var pangram = new Pangram('');
     expect(pangram.isPangram()).toBe(false);
   });
 
-  xit('recognizes a perfect lower case pangram', function ()  {
+  it('recognizes a perfect lower case pangram', function ()  {
     var pangram = new Pangram('abcdefghijklmnopqrstuvwxyz');
     expect(pangram.isPangram()).toBe(true);
   });
 
-  it('pangram with only lower case', function ()  {
+  xit('pangram with only lower case', function ()  {
     var pangram = new Pangram('the quick brown fox jumps over the lazy dog');
     expect(pangram.isPangram()).toBe(true);
   });
