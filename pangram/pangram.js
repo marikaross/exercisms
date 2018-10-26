@@ -4,12 +4,11 @@ class pangram {
   }
 
   isPangram() {
-    if(this.words = []) {
+    if(!this.words) {
       return false
     }
-
-
-  
+    let cleaned = this.words.toLowerCase()
+    return true
    }
 
 }
